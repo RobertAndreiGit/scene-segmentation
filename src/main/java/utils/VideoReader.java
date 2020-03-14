@@ -25,7 +25,8 @@ public class VideoReader {
             //ImageIO.write(bi, "png", new File("F:\\movie\\img" + k + ".png"));
             return converter.getBufferedImage(currentFrame);
         }
-
-        return null;
+        else{
+            return getNextFrame();
+        }
     }
 }

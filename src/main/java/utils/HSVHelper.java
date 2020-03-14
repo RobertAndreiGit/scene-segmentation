@@ -20,20 +20,20 @@ public class HSVHelper {
         return hsv;
     }
 
-    public static Vector<float[]> RGBtoHSVImage(BufferedImage bi) {
-        Vector<float[]> result = new Vector<>();
+    public static double[] RGBtoHSVImage(BufferedImage bi) {
+        double[] histogram = new double[70];
         for (int x = 0; x < bi.getWidth(); x++) {
             for (int y = 0; y < bi.getHeight(); y++) {
                 Color RGB = new Color(bi.getRGB(x, y));
                 float[] HSV = getHSVFromRGB(RGB.getRed(), RGB.getGreen(), RGB.getBlue());
-                HSV[3] = QuantizedHSV(HSV[0], HSV[1]);
-                result.add(HSV);
+                int result = QuantizedHSV(HSV[0], HSV[1]);
+                histogram[result] += 1;
             }
         }
-        return result;
+        return histogram;
     }
 
-    public static float QuantizedHSV(float H, float S){
+    public static int QuantizedHSV(float H, float S){
         int QH = getQuantizedH(H);
         int QS = getQuantizedS(S);
 

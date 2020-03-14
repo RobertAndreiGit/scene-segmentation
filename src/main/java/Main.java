@@ -1,38 +1,61 @@
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.IOException;
 import java.util.Vector;
 
 import org.bytedeco.javacv.FrameGrabber.Exception;
+import utils.FrameComparisson;
 import utils.HSVHelper;
-import utils.RLBPHelper;
+import utils.URLBPHelper;
 import utils.VideoReader;
+import org.apache.commons.lang3.ArrayUtils;
+
+import javax.imageio.ImageIO;
 
 public class Main {
-    public static void main(String[] args) throws IOException, Exception {
-//        VideoReader videoReader = new VideoReader("F:\\demo.mkv");
-//
-//        BufferedImage bi = videoReader.getNextFrame();
-//        while (bi == null)
-//            bi = videoReader.getNextFrame();
-//
-//        //System.out.println(new Color(bi.getRGB(0, 0)).getRed());
-//        //System.out.println(new Color(bi.getRGB(0, 0)).getGreen());
-//        //System.out.println(new Color(bi.getRGB(0, 0)).getBlue());
-//
-//        //float[] result = (HSVHelper.getHSVFromRGB(new Color(bi.getRGB(0, 0)).getRed(), new Color(bi.getRGB(0, 0)).getGreen(), new Color(bi.getRGB(0, 0)).getBlue()));
-//        //System.out.println(result[0] * (360));
-//        //System.out.println(result[1]);
-//        //System.out.println(result[2]);
-//
-//        Vector<float[]> img = HSVHelper.RGBtoHSVImage(bi);
-//        //System.out.println(img.get(0)[0]);
-//        //System.out.println(img.get(0)[1]);
-//        //System.out.println(img.get(0)[2]);
-//        for(int i =0; i<img.size(); i++)
-//        System.out.println(img.get(i)[3]);
+    public static void main(String[] args) throws IOException {
+        VideoReader videoReader = new VideoReader("E:\\1917.mp4");
+        int shotCount = 0;
+        int frame = 0;
+        BufferedImage newImg = videoReader.getNextFrame();
 
-        double[] arr = new double[]{44,52,221,70,78,53,221,43};
-        System.out.println(RLBPHelper.getPattern(63,arr));
+        double[] prevHistogram = normalize(ArrayUtils.addAll(HSVHelper.RGBtoHSVImage(newImg), URLBPHelper.get_URLBP_Features(newImg)));
+
+        newImg = videoReader.getNextFrame();
+        ImageIO.write(newImg, "png", new File("F:\\movie2\\img" + shotCount + "_" + frame + ".png"));
+
+        while(shotCount< 1){
+            double[] newHistogram = normalize(ArrayUtils.addAll(HSVHelper.RGBtoHSVImage(newImg), URLBPHelper.get_URLBP_Features(newImg)));
+            double difference = FrameComparisson.getEuclideanDistance(prevHistogram, newHistogram);
+
+            prevHistogram = newHistogram;
+
+            if(difference > 0.3) {
+                shotCount++;
+                ImageIO.write(newImg, "png", new File("F:\\movie2\\1.png"));
+            }
+            newImg = videoReader.getNextFrame();
+        }
+
+        ImageIO.write(newImg, "png", new File("F:\\movie2\\2.png"));
+        System.out.println(shotCount);
+    }
+
+    public static double[] normalize(double[]arr){
+        double min = Double.MAX_VALUE;
+        double max = Double.MIN_VALUE;
+
+
+        for (int i = 0; i < arr.length; i++) {
+                max = Math.max(arr[i], max);
+                min = Math.min(arr[i], min);
+        }
+
+        for (int i = 0; i < arr.length; i++) {
+                arr[i] = (arr[i] - min)/(max-min);
+        }
+
+        return arr;
     }
 }
