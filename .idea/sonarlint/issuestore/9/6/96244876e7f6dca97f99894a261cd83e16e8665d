@@ -1,0 +1,21 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿó
+j	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ³Ùù8ËŒ¶›.
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñş¯
+r	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Ú÷ñÿÿÿÿÿ8ËŒ¶›.
+m	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ³Ùù8ËŒ¶›.
+H
+java:S1128"-Remove this unused import 'java.util.Vector'.(ÿŒ¸Áÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(€Æšëúÿÿÿÿ
+r	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§µºÛşÿÿÿÿ8ËŒ¶›.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Ñ×®şÿÿÿÿ8ËŒ¶›.
+r	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à•Ôúÿÿÿÿ8ËŒ¶›.
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿó
+f	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ³Ùù
+Q	java:S125	"<This block of commented-out lines of code should be removed.(òóš™
+Q	java:S125"<This block of commented-out lines of code should be removed.(€¨£
+f	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–À‹
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ÂµÁÚ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿó
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ˜™¤üÿÿÿÿ

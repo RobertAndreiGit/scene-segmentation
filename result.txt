@@ -1,0 +1,18 @@
+ GPU isn't used 
+mini_batch = 1, batch = 8, time_steps = 1, train = 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+
+ seen 64, trained: 32032 K-images (500 Kilo-batches_64) 
+Enter Image Path: F:/Scoala/Licenta/yolov3/darknet/data/dog.jpg: Predicted in 19165.838000 milli-seconds.
+bicycle: 92%	(left_x:  114   top_y:  127   width:  458   height:  299)
+dog: 98%	(left_x:  129   top_y:  225   width:  184   height:  316)
+truck: 92%	(left_x:  464   top_y:   77   width:  221   height:   93)
+pottedplant: 33%	(left_x:  681   top_y:  109   width:   37   height:   46)
+Enter Image Path: F:/Scoala/Licenta/yolov3/darknet/data/dog.jpg: Predicted in 20088.487000 milli-seconds.
+bicycle: 92%	(left_x:  114   top_y:  127   width:  458   height:  299)
+dog: 98%	(left_x:  129   top_y:  225   width:  184   height:  316)
+truck: 92%	(left_x:  464   top_y:   77   width:  221   height:   93)
+pottedplant: 33%	(left_x:  681   top_y:  109   width:   37   height:   46)
+Enter Image Path: 

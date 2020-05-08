@@ -17,5 +17,5 @@ dependencies {
     compile group: 'org.bytedeco', name: 'javacpp', version: '1.5.2'
     compile group: 'colt', name: 'colt', version: '1.2.0'
     implementation 'org.apache.commons:commons-lang3:3.9'
-    include ':libraries:opencv' 
+    compile group: 'org.apache.commons', name: 'commons-exec', version: '1.3'
 }

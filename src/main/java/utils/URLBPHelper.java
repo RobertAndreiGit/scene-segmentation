@@ -119,7 +119,6 @@ public class URLBPHelper {
         for(int i =0; i<valueList.size(); i++){
             result[i] = valueList.get(i);
         }
-
         return result; // returning the 59 freq-values of the histogram
     }
 

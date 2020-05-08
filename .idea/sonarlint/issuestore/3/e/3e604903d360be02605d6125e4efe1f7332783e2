@@ -1,0 +1,21 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñş¯
+U
+java:S1118
+":Add a private constructor to hide the implicit public one.(äŸç²ÿÿÿÿÿ
+€
+java:S1149-"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(âîïòùÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã†ªüÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã†ªüÿÿÿÿ
+m
+java:S3776+"RRefactor this method to reduce its Cognitive Complexity from 61 to the 15 allowed.(õô›ºüÿÿÿÿ
+h	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õô›ºüÿÿÿÿ
+{
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(“Œùç
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã†ªüÿÿÿÿ
+k	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¢”¼ÿÿÿÿÿ
+E
+java:S1066I"/Merge this if statement with the enclosing one.(ÿäÑÓ
+€
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¼•½şÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼•½şÿÿÿÿ
