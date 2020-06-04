@@ -1,0 +1,22 @@
+
+f
+java:S1128"DRemove this unused import 'org.bytedeco.opencv.presets.opencv_core'.(õ…ÜŸøÿÿÿÿ8¸Ôˆ˜¢.
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(¹Ëçÿÿÿÿÿÿ8„‚ÌûŸ.
+‘
+java:S1319	"tThe type of the "shotsData" object should be an interface such as "List" rather than the implementation "ArrayList".(…ÃŠ®8¸Ôˆ˜¢.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(å åÜ8¸Ôˆ˜¢.
+t	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(…®Úí8¸Ôˆ˜¢.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(µüµÕÿÿÿÿÿ8ÑõÍûŸ.
+M
+java:S1481"+Remove this unused "result" local variable.(Ó°¬Ñøÿÿÿÿ8¸Ôˆ˜¢.
+X
+java:S3518.";Make sure "alone" can't be zero before doing this division.(†à¤í8¸Ôˆ˜¢.
+V
+java:S2864&"4Iterate over the "entrySet" instead of the "keySet".(å‰ Ğúÿÿÿÿ8¸Ôˆ˜¢.
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.( ²º¯ûÿÿÿÿ8¸Ôˆ˜¢.
+8
+java:S3626"Remove this redundant jump.(ûÁİ…8¸Ôˆ˜¢.
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Ì»­ 8ûÅûŸ.
+J	java:S108")Either remove or fill this block of code.(…Ì’¢ıÿÿÿÿ8¸Ôˆ˜¢.

@@ -36,8 +36,7 @@ public class URLBPHelper {
     }
 
     /**
-     * Extracts features from a Mat image based on the URLBP (Uniform Rotated Local Binary Pattern) as
-     * described in the following <a href="https://www.cs.tut.fi/~mehta/rlbp">paper/a>.
+     * Extracts features from a Mat image based on the URLBP (Uniform Rotated Local Binary Pattern)
      * @return A 59-length feature vector - the value set of the histogram
      */
     public static double[] get_URLBP_Features(BufferedImage img)

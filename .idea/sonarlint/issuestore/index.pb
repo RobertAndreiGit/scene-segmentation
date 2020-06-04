@@ -16,3 +16,15 @@ G
 :
 
 result.txt,b\d\bdd922bb216a40a75feefa8a8f6b904213bfef80
+7
+grab.py,8\d\8d9d58bd4798e2da8e581dd93f4654fd9ac0096e
+U
+%src/main/java/utils/ImageCleaner.java,7\d\7d9f55014302bffdb42c91058ec55ffe14fff5b3
+T
+$src/main/java/utils/FileCleaner.java,6\a\6a1b8e4adfe30657f98c5ad7613a684ea8ef49e7
+U
+%src/main/java/utils/PythonRunner.java,8\6\8678996965e138e58f14b2fce72a914186fd5ed8
+8
+bad.list,9\3\93a56a4d8c2b1dee25eb062399203c10aed91914
+Z
+*src/main/java/utils/BoundaryDetection.java,2\6\2672ae117e97a35032470f759071f935eaf03efc
