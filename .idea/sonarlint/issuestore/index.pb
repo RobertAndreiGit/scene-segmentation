@@ -28,3 +28,5 @@ U
 bad.list,9\3\93a56a4d8c2b1dee25eb062399203c10aed91914
 Z
 *src/main/java/utils/BoundaryDetection.java,2\6\2672ae117e97a35032470f759071f935eaf03efc
+M
+src/main/java/AppHandler.java,6\0\60c162592f4f53187eec073e5c28772c896b2ae7

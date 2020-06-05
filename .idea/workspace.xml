@@ -2,35 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e076bf14-a2d9-4163-8968-a46b04eb4cd9" name="Default Changelist" comment="K">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AppHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/BoundaryDetection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/FileCleaner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ImageCleaner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/2672ae117e97a35032470f759071f935eaf03efc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/2672ae117e97a35032470f759071f935eaf03efc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e604903d360be02605d6125e4efe1f7332783e2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e604903d360be02605d6125e4efe1f7332783e2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77c84c4e61605f98c88374b220a27e18ca9cc158" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77c84c4e61605f98c88374b220a27e18ca9cc158" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d9f55014302bffdb42c91058ec55ffe14fff5b3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d9f55014302bffdb42c91058ec55ffe14fff5b3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/8678996965e138e58f14b2fce72a914186fd5ed8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/8678996965e138e58f14b2fce72a914186fd5ed8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96244876e7f6dca97f99894a261cd83e16e8665d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96244876e7f6dca97f99894a261cd83e16e8665d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad.list" beforeDir="false" afterPath="$PROJECT_DIR$/bad.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/utils/FrameComparisson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/utils/FrameComparisson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/utils/PythonRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/utils/PythonRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/utils/URLBPHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/utils/URLBPHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/utils/VideoReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/utils/VideoReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/predictions.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/predictions.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PythonRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PythonRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/URLBPHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/URLBPHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/VideoReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/VideoReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/LBP Problem.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/LBP problem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/Movie structure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/RLBP fix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/RLBP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/Tasks generic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/graph specific.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/graph specific.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/methodsOG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/object detector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/object detector.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/structure.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/tasks generic.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/videos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/videos.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/yolov4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/yolov4_2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov3/2/darknet" beforeDir="false" afterPath="$PROJECT_DIR$/yolov3/2/darknet" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov3/2/darknet/cfg/coco.data" beforeDir="false" afterPath="$PROJECT_DIR$/yolov3/2/darknet/cfg/coco.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov3/2/darknet/src/darknet.c" beforeDir="false" afterPath="$PROJECT_DIR$/yolov3/2/darknet/src/darknet.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov3/2/darknet/src/detector.c" beforeDir="false" afterPath="$PROJECT_DIR$/yolov3/2/darknet/src/detector.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov3/2/darknet/src/image.c" beforeDir="false" afterPath="$PROJECT_DIR$/yolov3/2/darknet/src/image.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov3/2/darknet/src/yolo_console_dll.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/yolov3/2/darknet/src/yolo_console_dll.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov3/darknet" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -50,7 +53,7 @@
     <session id="1950281677">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.17" value="1" />
@@ -61,7 +64,7 @@
           <entry key="project.open.time.32" value="4" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.36" value="2" />
-          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.37" value="2" />
           <entry key="project.open.time.38" value="2" />
           <entry key="project.open.time.39" value="3" />
           <entry key="project.open.time.4" value="2" />
@@ -70,7 +73,7 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -121,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -129,8 +132,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/AppHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="59" column="39" lean-forward="true" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+            <state relative-caret-position="264">
+              <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,93 +144,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/BoundaryDetection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="187">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement />
-              <nodes>
-                <node x="0.0" y="0.0">utils.HSVHelper</node>
-                <node x="265.99999999999994" y="0.0">utils.PythonRunner</node>
-                <node x="808.0" y="0.0">utils.FrameComparisson</node>
-                <node x="124.99999999999994" y="0.0">utils.ImageCleaner</node>
-                <node x="682.0" y="0.0">utils.FileCleaner</node>
-                <node x="979.0" y="0.0">utils.BoundaryDetection</node>
-                <node x="548.0" y="0.0">utils.VideoReader</node>
-                <node x="520.5" y="99.0">AppHandler</node>
-                <node x="409.99999999999994" y="0.0">utils.URLBPHelper</node>
-                <node x="539.0" y="178.0">Main</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="AppHandler" target="utils.URLBPHelper">
-                  <point x="-12.444444444444457" y="-14.5" />
-                  <point x="564.0555555555554" y="49.0" />
-                  <point x="468.99999999999994" y="49.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="AppHandler" target="utils.FileCleaner">
-                  <point x="24.888888888888914" y="-14.5" />
-                  <point x="601.3888888888889" y="59.0" />
-                  <point x="735.0" y="59.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="AppHandler" target="utils.PythonRunner">
-                  <point x="-24.888888888888857" y="-14.5" />
-                  <point x="551.6111111111111" y="59.0" />
-                  <point x="327.99999999999994" y="59.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="AppHandler" target="utils.ImageCleaner">
-                  <point x="-37.333333333333314" y="-14.5" />
-                  <point x="539.1666666666666" y="69.0" />
-                  <point x="185.49999999999994" y="69.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="AppHandler" target="utils.FrameComparisson">
-                  <point x="37.33333333333337" y="-14.5" />
-                  <point x="613.8333333333333" y="69.0" />
-                  <point x="883.5" y="69.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="Main" target="AppHandler">
-                  <point x="0.0" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="AppHandler" target="utils.HSVHelper">
-                  <point x="-49.77777777777777" y="-14.5" />
-                  <point x="526.7222222222222" y="79.0" />
-                  <point x="52.5" y="79.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="AppHandler" target="utils.VideoReader">
-                  <point x="12.444444444444457" y="-14.5" />
-                  <point x="588.9444444444443" y="49.0" />
-                  <point x="633.5" y="49.0" />
-                  <point x="28.5" y="14.5" />
-                </edge>
-                <edge source="AppHandler" target="utils.BoundaryDetection">
-                  <point x="49.77777777777783" y="-14.5" />
-                  <point x="626.2777777777778" y="79.0" />
-                  <point x="1054.0" y="79.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="220.0" />
-              <SelectedNodes />
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -240,7 +161,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/PythonRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="765">
               <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -647,7 +568,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -692,13 +612,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591293602106" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591375929655" />
     <property name="last_opened_file_path" value="C:/colt/lib/colt.jar!/cern" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -773,38 +694,39 @@
       <workItem from="1589370207477" duration="15000" />
       <workItem from="1589725215010" duration="3303000" />
       <workItem from="1590138689597" duration="46000" />
-      <workItem from="1591262772230" duration="5488000" />
+      <workItem from="1591262772230" duration="5684000" />
+      <workItem from="1591375054850" duration="793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119314000" />
+    <option name="totallyTimeSpent" value="120303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21321961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Sequence" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.28958786" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.28958786" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="SonarLint" order="13" />
+      <window_info anchor="bottom" id="SonarLint" order="13" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -923,47 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bad.list">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ImageCleaner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/FrameComparisson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/VideoReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/PythonRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1047,24 +928,65 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/BoundaryDetection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="187">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bad.list">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/PythonRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ImageCleaner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/FrameComparisson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/VideoReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AppHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="59" column="39" lean-forward="true" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+        <state relative-caret-position="264">
+          <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
