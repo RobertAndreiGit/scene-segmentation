@@ -16,12 +16,18 @@ public class URLBPHelper {
     private static OpenIntIntHashMap histogramTemplate = getHistogramTemplate();
 
     public static double getGrayFromRGB(int R, int G, int B) {
+        if(R > 255 || R < 0 || G > 255 || G < 0 || B > 255 || B < 0){
+            return -1;
+        }
         return (R + G + B) / 3.0;
     }
 
     //Convert the image from RGB to gray(IG)
     public static Vector<double[]> RGBtoGrayImage(BufferedImage bi) {
         Vector<double[]> result = new Vector<>();
+        if(bi == null){
+            return null;
+        }
         for (int x = 0; x < bi.getWidth(); x++) {
             double[] row = new double[bi.getHeight()];
             for (int y = 0; y < bi.getHeight(); y++) {
@@ -39,9 +45,12 @@ public class URLBPHelper {
      * Extracts features from a Mat image based on the URLBP (Uniform Rotated Local Binary Pattern)
      * @return A 59-length feature vector - the value set of the histogram
      */
-    public static double[] get_URLBP_Features(BufferedImage img)
+    public static double[] getURLBPHistogram(BufferedImage img)
     {
         Vector<double[]> image = RGBtoGrayImage(img);
+        if(img == null){
+            return null;
+        }
 
         // Using: R(Radius) = 1, P(Pixel Neighbours) = 8
         OpenIntIntHashMap histogram = (OpenIntIntHashMap) histogramTemplate.clone();
@@ -118,11 +127,16 @@ public class URLBPHelper {
         for(int i =0; i<valueList.size(); i++){
             result[i] = valueList.get(i);
         }
+
         return result; // returning the 59 freq-values of the histogram
     }
 
-    private static boolean isBinaryUniform(int[] binary)
+    public static boolean isBinaryUniform(int[] binary)
     {
+        if(binary == null || binary.length != 8){
+            return false;
+        }
+
         int transitions = 0;
         for (int i=0; i < binary.length - 1; i++) {
             if (binary[i] != binary[i+1]) {
@@ -132,15 +146,18 @@ public class URLBPHelper {
         return transitions <= 2;
     }
 
-    private static int[] convertToBinary(int number)
+    public static int[] convertToBinary(int number)
     {
+        if(number < 0 || number > 255){
+            return new int[]{-1};
+        }
         int[] binary = new int[8];
         for (int i = 7, num = number; i >= 0; i--, num >>>= 1)
             binary[i] = num & 1;
         return binary;
     }
 
-    private static OpenIntIntHashMap getHistogramTemplate() // Should be called only one time
+    public static OpenIntIntHashMap getHistogramTemplate() // Should be called only one time
     {
         OpenIntIntHashMap histogram = new OpenIntIntHashMap();
         histogram.put(NON_UNIFORM_BIN,0); // Single bin for non-uniform patterns

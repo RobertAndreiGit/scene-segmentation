@@ -1,21 +1,21 @@
 
 k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã†ªüÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã†ªüÿÿÿÿ
+k	java:S117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¢”¼ÿÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼•½şÿÿÿÿ
+{
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(“Œùç
 U
 java:S1118
 ":Add a private constructor to hide the implicit public one.(äŸç²ÿÿÿÿÿ
 h	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õô›ºüÿÿÿÿ
-E
-java:S1066H"/Merge this if statement with the enclosing one.(ÿäÑÓ
-€
-java:S1149,"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(âîïòùÿÿÿÿ
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñş¯
-{
-java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(“Œùç
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã†ªüÿÿÿÿ
-h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼•½şÿÿÿÿ
-k	java:S117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¢”¼ÿÿÿÿÿ
 m
 java:S3776*"RRefactor this method to reduce its Cognitive Complexity from 61 to the 15 allowed.(õô›ºüÿÿÿÿ
 €
 java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¼•½şÿÿÿÿ
+€
+java:S1149,"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(âîïòùÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñş¯
 k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã†ªüÿÿÿÿ
+E
+java:S1066H"/Merge this if statement with the enclosing one.(ÿäÑÓ

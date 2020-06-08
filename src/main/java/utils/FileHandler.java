@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class FileCleaner {
+public class FileHandler {
     /**
      * static function used to take care of writing the a list of strings to a given file
      * This function will overwrite the data existing in the file.

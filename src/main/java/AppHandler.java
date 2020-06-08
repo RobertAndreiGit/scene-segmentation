@@ -12,13 +12,13 @@ import static utils.FrameComparisson.normalize;
 public class AppHandler {
     public static void start(String video_file) {
         try {
+            long startTime = System.nanoTime();
             VideoReader videoReader = new VideoReader(video_file);
             int shotCount = 0;
             int frame = 0;
             BufferedImage newImg = videoReader.getNextFrame();
 
-            double[] prevHistogram = normalize(ArrayUtils.addAll(HSVHelper.RGBtoHSVImage(newImg), URLBPHelper.get_URLBP_Features(newImg)));
-            //System.out.println( URLBPHelper.get_URLBP_Features(newImg).length);
+            double[] prevHistogram = normalize(ArrayUtils.addAll(normalize(HSVHelper.getHSVHistogram(newImg)), normalize(URLBPHelper.getURLBPHistogram(newImg))));
 
             newImg = videoReader.getNextFrame();
             ImageIO.write(newImg, "png", new File("F:\\movie2\\shot" + shotCount + "_" + frame + ".png"));
@@ -28,22 +28,22 @@ public class AppHandler {
             boolean addToLast = false;
 
             while (true) {
-                double[] newHistogram = normalize(ArrayUtils.addAll(HSVHelper.RGBtoHSVImage(newImg), URLBPHelper.get_URLBP_Features(newImg)));
+                double[] newHistogram = normalize(ArrayUtils.addAll(normalize(HSVHelper.getHSVHistogram(newImg)), normalize(URLBPHelper.getURLBPHistogram(newImg))));
                 double difference = FrameComparisson.getEuclideanDistance(prevHistogram, newHistogram);
 
                 prevHistogram = newHistogram;
 
                 if (difference > 0.5) {
-                    if (frame < 60) {
+                    if (frame < 30) {
                         addToLast = true;
                     } else {
                         addToLast = false;
                     }
 
-                    FileCleaner.writeFile("F:\\Scoala\\Licenta\\yolov3\\2\\darknet\\data\\train.txt", imgs);
+                    FileHandler.writeFile("F:\\Scoala\\Licenta\\yolov3\\2\\darknet\\data\\train.txt", imgs);
                     PythonRunner.runDarknet();
                     Hashtable<String, Integer> content = PythonRunner.getOutputContent("F:/Scoala/Licenta/result.txt");
-                    ImageCleaner.cleanFolder("F:\\movie2");
+                    FolderCleaner.cleanFolder("F:\\movie2");
                     imgs.clear();
 
                     if (addToLast) {
@@ -68,13 +68,38 @@ public class AppHandler {
 
                 newImg = videoReader.getNextFrame();
                 if (newImg == null) {
+                    if (frame < 30) {
+                        addToLast = true;
+                    } else {
+                        addToLast = false;
+                    }
+
+                    FileHandler.writeFile("F:\\Scoala\\Licenta\\yolov3\\2\\darknet\\data\\train.txt", imgs);
+                    PythonRunner.runDarknet();
+                    Hashtable<String, Integer> content = PythonRunner.getOutputContent("F:/Scoala/Licenta/result.txt");
+                    FolderCleaner.cleanFolder("F:\\movie2");
+                    imgs.clear();
+
+                    if (addToLast) {
+                        shotsData.set(shotsData.size() - 1, PythonRunner.combine(shotsData.get(shotsData.size() - 1), content));
+                    } else {
+                        shotsData.add(content);
+                    }
+
+                    shotCount++;
+                    frame = 0;
+
+                    String filename = "F:\\movie2\\shot" + shotCount + "_" + frame + ".png";
+                    ImageIO.write(newImg, "png", new File(filename));
+                    imgs.add(filename);
                     break;
                 }
             }
 
-            BoundaryDetection.getNumberOfScenes(shotsData);
+            BoundaryDetector.getNumberOfScenes(shotsData);
         } catch (Exception e) {
             System.out.println("SOMETHING WENT WRONG!");
+
         }
     }
 }

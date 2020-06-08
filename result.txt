@@ -5,44 +5,11 @@ nms_kind: greedynms (1), beta = 0.600000
 nms_kind: greedynms (1), beta = 0.600000 
 
  seen 64, trained: 32032 K-images (500 Kilo-batches_64) 
-Enter Image Path: F:\movie2\shot12_0.png: Predicted in 17962.754000 milli-seconds.
-person: 84%	(left_x:   12   top_y:  129   width:  831   height:  817)
-person: 57%	(left_x:  461   top_y:  300   width:  217   height:  273)
-person: 82%	(left_x:  594   top_y:  388   width:  344   height:  339)
-person: 47%	(left_x:  663   top_y:  298   width:  404   height:  248)
-tvmonitor: 31%	(left_x:  875   top_y:  332   width:  204   height:  165)
-person: 25%	(left_x: 1106   top_y:  198   width:  341   height:  337)
-Enter Image Path: F:\movie2\shot12_50.png: Predicted in 17622.456000 milli-seconds.
-person: 66%	(left_x:   22   top_y:  206   width:  858   height:  714)
-tie: 47%	(left_x:  489   top_y:  743   width:  106   height:  194)
-Enter Image Path: F:\movie2\shot12_100.png: Predicted in 17621.680000 milli-seconds.
-person: 92%	(left_x:  189   top_y:  358   width:  112   height:  128)
-person: 97%	(left_x:  288   top_y:  328   width:  257   height:  627)
-cell phone: 30%	(left_x:  370   top_y:  428   width:   26   height:   34)
-chair: 37%	(left_x:  375   top_y:  797   width:  180   height:  145)
-person: 88%	(left_x:  630   top_y:  420   width:   72   height:   83)
-person: 92%	(left_x:  693   top_y:  111   width:  795   height:  836)
-person: 28%	(left_x:  747   top_y:  481   width:   92   height:  161)
-person: 59%	(left_x: 1687   top_y:  361   width:   99   height:  207)
-person: 64%	(left_x: 1687   top_y:  335   width:  231   height:  280)
-Enter Image Path: F:\movie2\shot12_150.png: Predicted in 17619.790000 milli-seconds.
-person: 71%	(left_x:   90   top_y:  349   width:  237   height:  502)
-chair: 58%	(left_x:  757   top_y:  480   width:  381   height:  248)
-chair: 52%	(left_x: 1173   top_y:  487   width:  151   height:   87)
-person: 97%	(left_x: 1188   top_y:  381   width:   75   height:  112)
-person: 86%	(left_x: 1274   top_y:  386   width:   72   height:  128)
-person: 77%	(left_x: 1305   top_y:  292   width:  339   height:  457)
-cell phone: 50%	(left_x: 1463   top_y:  370   width:   65   height:   88)
-Enter Image Path: F:\movie2\shot12_200.png: Predicted in 17684.435000 milli-seconds.
-person: 90%	(left_x:  706   top_y:  159   width: 1255   height:  772)
-Enter Image Path: F:\movie2\shot12_250.png: Predicted in 17590.385000 milli-seconds.
-book: 28%	(left_x:    4   top_y:  288   width:  205   height:  519)
-book: 61%	(left_x:   82   top_y:  294   width:  483   height:  182)
-book: 77%	(left_x:  179   top_y:  425   width:  476   height:  204)
-book: 36%	(left_x:  216   top_y:  484   width:  536   height:  216)
-book: 87%	(left_x:  234   top_y:  484   width: 1191   height:  444)
-book: 31%	(left_x:  528   top_y:  262   width:  374   height:  152)
-book: 54%	(left_x:  575   top_y:  388   width:  184   height:   87)
-book: 35%	(left_x:  742   top_y:  177   width:  910   height:  463)
-person: 28%	(left_x: 1381   top_y:  128   width:  548   height:  801)
+Enter Image Path: F:\movie2\shot50_0.png: Predicted in 19862.137000 milli-seconds.
+person: 33%	(left_x:   -5   top_y:   17   width: 1529   height: 1074)
+person: 48%	(left_x: 1242   top_y:    6   width:  674   height: 1078)
+Enter Image Path: F:\movie2\shot50_50.png: Predicted in 19244.169000 milli-seconds.
+person: 40%	(left_x:   -3   top_y:   13   width:  895   height: 1072)
+person: 32%	(left_x:   29   top_y:  -40   width: 1855   height: 1182)
+person: 32%	(left_x: 1238   top_y:   17   width:  682   height: 1072)
 Enter Image Path: 

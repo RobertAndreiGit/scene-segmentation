@@ -3,6 +3,9 @@ package utils;
 public class FrameComparisson {
     public static double getEuclideanDistance(double[] img1, double[] img2){
         double sum = 0;
+        if(img1.length != img2.length || img1.length == 0) {
+            return -1;
+        }
         for(int i = 0; i < img1.length; i++){
             sum += Math.pow(img1[i] - img2[i], 2);
         }

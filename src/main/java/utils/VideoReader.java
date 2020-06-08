@@ -20,12 +20,7 @@ public class VideoReader {
 
     public BufferedImage getNextFrame() throws FrameGrabber.Exception {
         currentFrame = frameGrabber.grabImage();
-        //if (currentFrame != null && currentFrame.imageHeight > 0) {
-            BufferedImage bi = converter.getBufferedImage(currentFrame);
-            return converter.getBufferedImage(currentFrame);
-        //}
-        //else{
-        //    return getNextFrame();
-        //}
+        BufferedImage bi = converter.getBufferedImage(currentFrame);
+        return converter.getBufferedImage(currentFrame);
     }
 }

@@ -49,11 +49,6 @@ public class PythonRunner {
                     current.clear();
                 }
             }
-
-            for(String key : result.keySet()) {
-                Integer positions = result.get(key);
-                //System.out.println(positions + "x " + key);
-            }
         } catch (Exception e) {
             e.printStackTrace();
         }
